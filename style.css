@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --top: #FF6900;
+    --light: #FFFFFF;
+    --full: #008000;
+    --discount: #FF0000;
+    --dark: #1A1A1A;
+}
+
+/*Common*/
+.d-flex{
+    display: flex;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.j-between{
+    justify-content: space-between;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+/*HEADER*/
+#site_header{
+    height:30px;
+    margin: 1.5rem;
+}
