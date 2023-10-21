@@ -64,10 +64,32 @@ img{
     max-width: 100%;
 }
 
-.top{
 
-}
 .card:hover .top{
     display: none;
 }
 
+
+
+.discount{
+    position: absolute;
+    left:0;
+    bottom:80px;
+    
+}
+.green{
+background-color: var(--full);
+color:var(--light);
+height: auto;
+width: auto;
+padding: 0.25rem;
+margin-left: 1px;
+}
+.red{
+    background-color: var(--discount);
+    color: var(--light);
+    height: auto;
+    width: auto;
+    padding: 0.25rem;
+    margin-right:1px;
+}
