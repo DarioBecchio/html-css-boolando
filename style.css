@@ -47,6 +47,7 @@ left: 0;
     position: relative;
 }
 
+
 /*HEADER*/
 #site_header{
     height:40px;
@@ -61,5 +62,12 @@ left: 0;
 
 img{
     max-width: 100%;
+}
+
+.top{
+
+}
+.card:hover .top{
+    display: none;
 }
 
