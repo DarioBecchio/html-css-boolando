@@ -11,6 +11,10 @@
     --dark: #1A1A1A;
 }
 
+.debug .col-4{
+    border: 2px solid black;
+    height:400px;
+}
 /*Common*/
 .d-flex{
     display: flex;
@@ -25,9 +29,37 @@
     margin: auto;
     width: 80%;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: calc(100%/12*4);
+    padding: 1rem;
+   
+}
+.absolute{
+position: absolute;
+top: 0;
+left: 0;
+}
+.relative{
+    position: relative;
+}
 
 /*HEADER*/
 #site_header{
-    height:30px;
-    margin: 1.5rem;
+    height:40px;
+    background-color: var(--top);
 }
+
+
+/*endheader*/
+
+/*main*/
+
+
+img{
+    max-width: 100%;
+}
+
